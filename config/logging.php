@@ -130,6 +130,10 @@ return [
             'driver' => 'single',
             'path' => storage_path('logs/submission.log'),
         ],
+        'queue_errors' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/queue_errors.log'),
+        ],
 
     ],
 
